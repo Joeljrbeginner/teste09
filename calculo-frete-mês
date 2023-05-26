@@ -1,0 +1,15 @@
+public class ContadorCorridas {
+
+    public static void main(String[] args) {
+        int corridasPorDia = 20;
+        double valorPorCorrida = 12.50;
+        int diasNoMes = 30;
+        int diasNoMes = 30;
+        int corridasPorDia = 20;
+
+        double totalReceita = corridasPorDia * valorPorCorrida * diasNoMes;
+
+        System.out.println("Total de corridas: " + (corridasPorDia * diasNoMes));
+        System.out.println("Receita total: R$ " + totalReceita);
+    }
+}
